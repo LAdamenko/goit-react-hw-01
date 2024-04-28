@@ -1,29 +1,30 @@
 .container {
   border: 3px solid black;
   border-radius: 12px;
-  width: 416px;
+  width: 400px;
   text-align: center;
   margin-bottom: 80px;
 }
 
 .avatar {
   width: 180px;
-  border-radius: 90px;
+  border-radius: 50%;
   margin: 20px auto 24px;
   background-color: grey;
 }
 
 .list {
-  padding: 0;
+  padding: 8px 0;
   margin: 0;
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   text-align: center;
   justify-content: space-around;
-  border-top: 1px solid;
+  border-top: 3px solid gray;
   background-color: #abadbd;
   border-radius: 0 0 10px 10px;
+  height: 64px;
 }
 
 .username {

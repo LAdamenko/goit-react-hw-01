@@ -1,0 +1,27 @@
+table {
+  border-collapse: collapse;
+  border: 1px solid grey;
+  width: 450px;
+}
+
+th,
+td {
+  border: 1px solid grey;
+}
+
+tr:nth-child(2n) {
+  background: #adb4d0;
+}
+
+th {
+  background: black;
+  color: white;
+}
+
+td {
+  padding-left: 40px;
+}
+
+td::first-letter {
+  text-transform: uppercase;
+}

@@ -13,7 +13,7 @@ tr:nth-child(2n) {
   background: #adb4d0;
 }
 
-th {
+.tablehead {
   background: black;
   color: white;
 }
